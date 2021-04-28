@@ -33,7 +33,7 @@ const Home:React.FC<{posts : Post[]}> = (props) => {
         <title> Hatwaar Beta's Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <h2 className = {styles.title}>Hello to my Blog.</h2>
+    <h2 className = {styles.title}>Say Hello to The Hatwaar Beta Blog.</h2>
       <main className={styles.main}>
        <ul>
     {
