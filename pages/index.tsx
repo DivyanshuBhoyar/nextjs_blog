@@ -25,7 +25,7 @@ type Post = {
   slug: string ;
 }
 
-const Home:React.FC<{posts : string[]}> = (props) => {
+const Home:React.FC<{posts : Post[]}> = (props) => {
   const {posts} = props
   return (
     <div className={styles.container}>
